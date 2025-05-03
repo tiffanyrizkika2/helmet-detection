@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 @st.cache
-def load_model()
+def load_model():
     return YOLO("best.pt")
 
 # Load your YOLO model
